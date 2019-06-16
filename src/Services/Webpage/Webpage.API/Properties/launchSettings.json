@@ -3,8 +3,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:51897",
-      "sslPort": 44375
+      "applicationUrl": "http://localhost:56970",
+      "sslPort": 44367
     }
   },
   "$schema": "http://json.schemastore.org/launchsettings.json",
@@ -12,15 +12,15 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/items",
+      "launchUrl": "api/values",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Catalog.API": {
+    "Webpage.API": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/items",
+      "launchUrl": "api/values",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
@@ -32,11 +32,11 @@
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/api/values",
       "environmentVariables": {
         "ASPNETCORE_URLS": "https://+:443;http://+:80",
-        "ASPNETCORE_HTTPS_PORT": "44376"
+        "ASPNETCORE_HTTPS_PORT": "44368"
       },
-      "httpPort": 51898,
+      "httpPort": 56971,
       "useSSL": true,
-      "sslPort": 44376
+      "sslPort": 44368
     }
   }
 }

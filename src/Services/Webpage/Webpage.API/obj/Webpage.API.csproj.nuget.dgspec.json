@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Code\\MyOG\\Repos\\ServicesOG\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj": {}
+    "C:\\Code\\MyOG\\Repos\\ServicesOG\\src\\Services\\Webpage\\Webpage.API\\Webpage.API.csproj": {}
   },
   "projects": {
-    "C:\\Code\\MyOG\\Repos\\ServicesOG\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj": {
+    "C:\\Code\\MyOG\\Repos\\ServicesOG\\src\\Services\\Webpage\\Webpage.API\\Webpage.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Code\\MyOG\\Repos\\ServicesOG\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
-        "projectName": "Catalog.API",
-        "projectPath": "C:\\Code\\MyOG\\Repos\\ServicesOG\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
+        "projectUniqueName": "C:\\Code\\MyOG\\Repos\\ServicesOG\\src\\Services\\Webpage\\Webpage.API\\Webpage.API.csproj",
+        "projectName": "Webpage.API",
+        "projectPath": "C:\\Code\\MyOG\\Repos\\ServicesOG\\src\\Services\\Webpage\\Webpage.API\\Webpage.API.csproj",
         "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
-        "outputPath": "C:\\Code\\MyOG\\Repos\\ServicesOG\\src\\Services\\Catalog\\Catalog.API\\obj\\",
+        "outputPath": "C:\\Code\\MyOG\\Repos\\ServicesOG\\src\\Services\\Webpage\\Webpage.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -43,10 +43,6 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
-            "JsonApiDotNetCore": {
-              "target": "Package",
-              "version": "[3.1.0, )"
-            },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -55,15 +51,6 @@
             },
             "Microsoft.AspNetCore.Razor.Design": {
               "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.4, )"
-            },
-            "Microsoft.Extensions.Options": {
               "target": "Package",
               "version": "[2.2.0, )"
             },
@@ -76,22 +63,6 @@
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.7.10, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[2.2.3, )"
-            },
-            "MySql.Data": {
-              "target": "Package",
-              "version": "[8.0.16, )"
-            },
-            "MySql.Data.Entity": {
-              "target": "Package",
-              "version": "[6.10.8, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[4.0.1, )"
             }
           },
           "imports": [

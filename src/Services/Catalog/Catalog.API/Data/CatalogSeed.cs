@@ -1,4 +1,5 @@
 ﻿using Catalog.API.Model;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -10,6 +11,7 @@ namespace Catalog.API.Data
 
         public static async Task SeedAsync(CatalogDbContext context)
         {
+            context.Database.Migrate();
             if (!context.CatalogTypes.Any())
             {
                 context.CatalogTypes.AddRange(GetPreConfiguredCatalogTypes());
